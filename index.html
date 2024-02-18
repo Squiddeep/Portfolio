@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepika's website</title>
+    <link rel="stylesheet" href="stle.css">
+    <script src="https://kit.fontawesome.com/14f32fbdae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="lo.png" class="logo">
+                <ul id="sidemenue">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achivements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenue()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+            </nav>
+           
+            
+            <div class="header-text">
+                <!--<p>A Student</p>-->
+                <h1>Hi, I'm <span>Deepika K S</span><br>A passionate student.</h1>
+
+            
+            
+            </div>
+         </div>
+
+    </div>
+    <!------------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="about.png" >
+            </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p> I'm Deepika, A dedicated student pursuing BE at Vidyavardhaka college of engineering. <br>
+                    I'm deeply interested in web deveploment,Data analysis,AIML,Cybersecurity, 
+                    and I'm actively seeking opportunities to learn and grow in this field.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web deveploment</span><br>Frontend wesite building</li>
+                            <li><span>Tabule</span><br>Data visualization</li>
+                            <li><span>AIML</span><br>AI model building</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>1st year</span><br>building robot,Fringerprint locker</li>
+                            <li><span>2nd year</span><br>Event registration website</li>
+                            <li><span>3rd year</span><br>ACM hour of coding,Buisiness analytics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-current</span><br>BE-Information Science and engineering</li>
+                            <li><span>2019-20</span><br>PU-Dhaksha pu college</li>
+                            <li><span>2018</span><br>Doreswamy vidyakula</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-------Projects----->
+    <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-lists">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>website</h2>
+                <p>The event registration website of our own college.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-light fa-robot"></i>
+                <h2>Robotics</h2>
+                <p>Built a robot with the help of which ditects path,objects,elements.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-table-columns"></i>
+                <h2>PowerBI</h2>
+                <p>The data visualization of a prominant brands,covid-19 and many other Dashboards</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!----achievements------->
+<div id="achivements">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="works1.png" >
+            <div class="layer">
+                <h3>AI model training</h3>
+                <p>training the ai model for sound,motion,object detection</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work2.png" >
+            <div class="layer">
+                <h3>Dashboard</h3>
+                <p>Dashboard of Coco cola company using PowerBI</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="works3.png" >
+            <div class="layer">
+                <h3>Event registration website</h3>
+                <p>This is a college website where students can register for any club events.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ksdeepika258@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9902042915</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Download resume</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"  class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Deepika<i class="fa-solid fa-heart"></i> </a></p>
+    </div>
+</div>
+
+    <script>
+    
+    var tablinks = document.getElementsByClassName('tab-links');
+var tabcontents = document.getElementsByClassName('tab-contents');
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove('active-link');
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tab');
+    }
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add('active-tab');
+}
+
+    </script>
+    <script>
+// JavaScript for opening and closing the side menu
+
+var sidemenue = document.getElementById('sidemenue');
+
+function openmenue() {
+    sidemenue.style.right = "0";
+}
+
+function closemenue() {
+    sidemenue.style.right = "-200px";
+}
+
+
+
+
+    </script>
+</body>
+</html>
